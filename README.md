@@ -1,8 +1,17 @@
+# Taller 1
+
+Este es el proyecto para el **Taller 1**. El código está contenido en el archivo comprimido **Taller1.zip**, que incluye la solución de Visual Studio para el proyecto **MyProject**. El proyecto está configurado para usar **CMake** para gestionar el proceso de compilación.
+
+## Estructura del Proyecto
+
+El archivo **Taller1.zip** contiene la siguiente estructura:
+
 
 1. **Taller1.zip**: El archivo comprimido que contiene todos los archivos del proyecto.
 2. **build/**: Carpeta que contiene los archivos generados por la compilación y la solución del proyecto.
 3. **CMakeLists.txt**: Archivo de configuración de CMake utilizado para gestionar el proceso de compilación.
 4. **src/**: Carpeta con el código fuente del proyecto, donde se encuentran archivos como **Main.cpp** y **Saludo.h**.
+5. **MyProject.sln**: Archivo de solución de Visual Studio que puede abrirse directamente para trabajar con el proyecto en Visual Studio.
 
 ## Instrucciones para Compilar y Ejecutar
 
@@ -18,7 +27,7 @@ Para compilar y ejecutar el proyecto, sigue estos pasos:
 ### 3. **Configurar el Proyecto con CMake**:
    - Asegúrate de tener instalado **CMake** en tu sistema. Si no lo tienes, puedes descargarlo desde [aquí](https://cmake.org/download/).
    - En Visual Studio, selecciona **CMake > Configure** para configurar el proyecto usando el archivo **CMakeLists.txt**.
-   - Selecciona el generador adecuado (por ejemplo, "Visual Studio 17 2022").
+   - Selecciona el generador adecuado (por ejemplo, "Visual Studio 16 2019").
    
 ### 4. **Compilar el Proyecto**:
    - Una vez configurado el proyecto, haz clic en **Build > Build Solution** para compilar el proyecto.
