@@ -18,7 +18,7 @@ Para compilar y ejecutar el proyecto, sigue estos pasos:
 ### 3. **Configurar el Proyecto con CMake**:
    - Asegúrate de tener instalado **CMake** en tu sistema. Si no lo tienes, puedes descargarlo desde [aquí](https://cmake.org/download/).
    - En Visual Studio, selecciona **CMake > Configure** para configurar el proyecto usando el archivo **CMakeLists.txt**.
-   - Selecciona el generador adecuado (por ejemplo, "Visual Studio 16 2019").
+   - Selecciona el generador adecuado (por ejemplo, "Visual Studio 17 2022").
    
 ### 4. **Compilar el Proyecto**:
    - Una vez configurado el proyecto, haz clic en **Build > Build Solution** para compilar el proyecto.
